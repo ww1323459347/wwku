@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // var arr = [2, 0, 6, 1, 77, 0, 52, 0, 25, 7];
+        // var num = [];
+        // for (i =arr.length-1 ; i >= 0; i--) {
+        //     num[num.length] = arr[i]
+        // } console.log(num)
+
+        //     function add(num1,num2) {
+        //         var num=0
+        //         for(var i=num1;i<=num2;i++){
+        //             num+=i
+        //         }console.log(num)
+        //         return add;
+        //     }
+        //    add(1,100)
+        // function num(aru) {
+        //     return aru
+        // }
+        // console.log(num("QQ"))
+        // var top_add = ["one","two","three","four"];
+        // top_add.unshift("zero");
+        // document.write(top_add)
+        // document.write("<br/>")
+        // var food_add = ["one","two","three","four"];
+        // food_add.push("five");
+        // document.write(food_add)
+
+        // function add(arr) {
+        //     var num=arr[0]
+        //     for(var i=1;i<=arr.length;i++)
+        //     if(arr[i]>num){
+        //         num=arr[i]
+        //     }
+        //     return num;
+        // }
+        // console.log(add([5,2,99,101,67,77]))
+        // var num1 = Number(prompt("请输入数字"))
+        // var ope = prompt("请输入运算符")
+        // var num2 = Number(prompt("请输入数字"))
+        // function num(num1, ope, num2) {
+
+        //     switch (ope) {
+        //         case "+": return num1 + num2;
+        //         case "-": return num1 - num2;
+        //         case "*": return num1 * num2;
+        //         case "/": return num1 / num2;
+        //     }
+        // }
+        // alert(num(num1, ope, num2))
+    //     function num(num1,num2){
+    //     var num1 = Number(prompt("请输入数字"))
+    //     var num2 = Number(prompt("请输入数字"))
+    //     if(num1>num2){
+    //         return num1;
+    //     }else{
+    //         return num2
+    //     }
+    // }
+    // alert(num())
+    function num(num1,num2,num3){
+        var num1 = Number(prompt("请输入数字"))
+        var num2 = Number(prompt("请输入数字"))
+        var num3 = Number(prompt("请输入数字"))
+            if(num1>num2&&num1>num3){
+                return num1;
+            }else if(num2>num1&&num2>num3){
+                return num2;
+            }else{
+                return num3;
+            }
+        }
+        alert(num())
+    
+    
+    </script>
+
+</body>
+
+</html>
